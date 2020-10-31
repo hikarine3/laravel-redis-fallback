@@ -2,24 +2,33 @@
 
 ## Purpose of this package / このパッケージの目的
 (English)
-This package is for falling back if redis server is not available for cache of laravel.
+This package is for falling back to array if redis server is not available for cache of laravel.
 
-Currently array is specified as falling back because it can store tagged data but be careful that it is alsmost same with not using cache.
+Currently array is specified as falling back because it can store tagged data.
 
-This is created referencing to https://github.com/24i/laravel-redis-fallback for making falling back package work with Laravel 8 and tagging function.
+But please be careful that it is alsmost same with not using cache in terms of performance.
+
+This is created referencing to https://github.com/24i/laravel-redis-fallback for 
+
+- making falling back package work with Laravel 8
+- making falling back package work with tagging function
 
 (日本語) このパッケージはRedistが落ちた時に、Laravelがそれでも例外エラーを出さずに動かし続けさせる為のパッケージです。
 色々用途に合うパッケージを探していましたが
+
 - Laravel 8に対応してない
 - タグを使ってる場合に対応していない
+
 為、
 https://github.com/24i/laravel-redis-fallback
 を開始にあたってのコードとして参照して、そこからは自分で作る事にしました。
 
 Redisが使えない場合、arrayがcacheの代わりの保存先として使われます。
 結果として
+
 - パフォーマンスの向上はほぼ期待できませんが、Redisが落ちてもシステムは稼働し続ける
-- Redis復旧後の後始末をしなくても済む
+- ARedis復旧後の後始末をしなくても済む
+
 という所に特徴があります
 
 ## How to install & set up / インストール・設定方法
