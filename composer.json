@@ -1,6 +1,6 @@
 {
     "name": "hikarine3/laravel-redis-fallback",
-    "version": "1.0.3",
+    "version": "1.0.4",
     "description": "Laravel 8 redis cache fallback to array",
     "keywords": ["laravel", "laravel8", "cache", "redis", "array"],
     "license": "MIT",

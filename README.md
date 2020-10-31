@@ -1,8 +1,7 @@
-# Redis cache fallback package for Laravel 8 / Redisが落ちてもLaravelを落さない為のパッケージ(Laravel 8対応)
+# Redis cache fallback package for Laravel 8 / Laravel 8的Redis缓存后备软件包 / Redisが落ちてもLaravelを落さない為のパッケージ(Laravel 8対応)
 
-## Purpose of this package / このパッケージの目的
-(English)
-This package is for falling back to array if redis server is not available for cache of laravel.
+## Purpose of this package / 该包装的目的 / このパッケージの目的
+(English) This package is for falling back to array if redis server is not available for cache of laravel.
 
 Currently array is specified as falling back because it can store tagged data.
 
@@ -12,6 +11,17 @@ This is created referencing to https://github.com/24i/laravel-redis-fallback for
 
 - making falling back package work with Laravel 8
 - making falling back package work with tagging function
+
+(中文) 如果redis服务器不可用于laravel的缓存，则此软件包用于回退到阵列。
+
+当前将数组指定为回退，因为它可以存储标记的数据。
+
+但是请注意，就性能而言，不使用缓存几乎是相同的。
+
+参照 https://github.com/24i/laravel-redis-fallback 创建
+
+- 使用Laravel 8使回退包工作
+- 使用标签功能使后退包装起作用
 
 (日本語) このパッケージはRedistが落ちた時に、Laravelがそれでも例外エラーを出さずに動かし続けさせる為のパッケージです。
 色々用途に合うパッケージを探していましたが
@@ -38,6 +48,8 @@ composer require hikarine3/laravel-redis-fallback;
 
 (English) Replace the default cache service provider in config/app.php
 
+(中文) 替换config/app.php中的默认缓存服务提供程序
+
 (日本語) app/config.php の以下の部分を書き換えて下さい
 
 ```php
@@ -54,8 +66,9 @@ composer require hikarine3/laravel-redis-fallback;
 
 (English) You should test whether the system can run without exception even if redis service stopped.
 
-(日本語) Redisを落としても、システムがきちんと稼働することを確認の上で、使って下さい。
+(中文) 即使redis服务停止，也应该测试系统是否可以正常运行。
 
+(日本語) Redisを落としても、システムがきちんと稼働することを確認の上で、使って下さい。
 
 # License / ライセンス / 执照
 
