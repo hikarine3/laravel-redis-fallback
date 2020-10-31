@@ -1,0 +1,21 @@
+{
+    "name": "hikarine3/laravel-redis-fallback",
+    "version": "1.0.3",
+    "description": "Laravel 8 redis cache fallback to array",
+    "keywords": ["laravel", "laravel8", "cache", "redis", "array"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Hajime Kurita"
+        }
+    ],
+    "require": {
+        "php": ">=7.0",
+        "illuminate/support": "5.* || 6.* || 7.* || 8.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Hikarine3\\LaravelRedisFallback\\": "src"
+        }
+    }
+}
