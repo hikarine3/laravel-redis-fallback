@@ -83,18 +83,6 @@ Hajime Kurita
 - EN: https://twitter.com/hajimekurita
 - JP: https://twitter.com/hikarine3
 
-## Weibo
-- CN: https://www.weibo.com/hajimekurita
-
-## Corporation page / 会社ページ / 公司页面
-- EN: https://1stclass.co.jp/en/
-- CN: https://1stclass.co.jp/zh/
-- JP: https://1stclass.co.jp/
-
-## Blog
-- EN: https://en.sakuhindb.com/pe/Administrator/
-- JP: https://sakuhindb.com/pj/6_B4C9CDFDBFCDA4B5A4F3/
-
 ## Techincoal web services / 提供してる技術関連Webサービス / Techincoal Web服务
 ### VPS & Infra comparison / VPS比較 / VPS比较
 - EN: https://vpsranking.com/en/
@@ -113,3 +101,29 @@ Hajime Kurita
 - Perl: http://search.cpan.org/~hikarine/
 - PHP: https://packagist.org/packages/hikarine3/
 - Python: https://pypi.org/user/hikarine3/
+
+### Contributing to following web services (part of projects which I am contributing to as owner)
+#### Japanese
+- https://HelloWorkPlus.com/
+- https://HotelGurashi.com/
+- https://ja.web-tool.net/
+- https://KaikeiSoftHikaku.com/
+- https://Minakoe.jp/
+- https://ProgrammingLang.com/ja/
+- https://OData.jp/ja/
+- https://RentalServerHikaku.com/
+- https://SakuhinDB.com/
+- https://SenyouServerHikaku.com/
+- https://SKensaku.com/
+- https://VpsHikaku.com/
+
+#### English
+- https://en.sakuhindb.com/
+- https://ProgrammingLang.com/en/
+- https://OData.jp/
+- https://VpsRanking.com/en/
+
+#### Chinese
+- https://ProgrammingLang.com/zh/
+- https://OData.jp/zh/
+- https://VpsRanking.com/zh/
