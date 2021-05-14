@@ -50,7 +50,7 @@ composer require hikarine3/laravel-redis-fallback;
 
 (中文) 替换config/app.php中的默认缓存服务提供程序
 
-(日本語) app/config.php の以下の部分を書き換えて下さい
+(日本語) config/app.php の以下の部分を書き換えて下さい
 
 ```php
 'providers' => array(
